@@ -23,6 +23,8 @@ namespace CallCenterWithThreads
         public MainWindow()
         {
             InitializeComponent();
+            GoldCustomer goldCustomer = new GoldCustomer();
+            goldCustomer.Priority = new Silver();
         }
     }
 }
